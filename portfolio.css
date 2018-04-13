@@ -1,0 +1,261 @@
+
+* {
+    box-sizing: border-box;
+}
+.container{
+  width: 100%;
+}
+body {
+    background-image: url("images.jpg");
+    background-size: cover;
+
+}
+h1{
+text-align: center;
+}
+
+.image{
+margin-left: 90px;
+}
+
+.image img{
+border-radius: 50%;
+
+}
+
+
+.phara {
+    padding: 10px;
+    text-align: left;
+    background: white;
+    color: black;
+}
+
+
+
+/* Style the header */
+
+ .navbar {
+     overflow: hidden;
+     background-color: #696969;
+     /* display: inline-block; */
+ }
+
+ .navbar a {
+     /* float: left; */
+   /* display: block; */
+     color: white;
+     text-align: center;
+     /* padding: 14px 20px; */
+     text-decoration: none;
+ }
+ .navbar  ul {
+text-align: center;
+
+ }
+
+ /* Right-aligned link */
+ /* .navbar a.right {
+     float: right;
+ } */
+
+ /* Change color on hover */
+  .navbar a:hover {
+     background-color: #ddd;
+     color: black;
+ }
+ div.gallery {
+     margin: 5px;
+     border: 1px solid #ccc;
+     float: left;
+     width: 180px;
+     overflow: hidden;
+ }
+
+ div.gallery:hover {
+     border: 1px solid #777;
+ }
+
+ div.gallery img {
+     width: 100%;
+     height: auto;
+     margin-right: auto;
+ }
+
+ div.desc {
+     padding: 15px;
+     text-align: center;
+ }
+
+
+footer {
+background-color: #6cf;
+bottom:0;
+
+}
+
+
+footer i {
+  margin: 20px;
+  width: 60px;
+
+}
+.sbu img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+.skill img{
+padding: 5px;
+border: 3px solid green;
+width: 100px;
+}
+
+.linkz a {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:626px) {
+
+  .header {
+      padding: 30px;
+      text-align: center;
+      background: #696969;
+      color: white;
+
+  }
+
+  /* Increase the font size of the h1 element */
+  .header h1 {
+      font-size: 40px;
+  }
+  .navbar {
+      overflow: hidden;
+      background-color: #708090;
+  }
+
+  /* Style the navigation bar links */
+  .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+  }
+
+  /* Right-aligned link */
+  .navbar a.right {
+      float: right;
+  }
+
+  /* Change color on hover */
+  .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+  .pictures{
+    width: 40%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    clear: both;
+  }
+  .basic{
+    font-size: 250%;
+    width: 120%;
+  }
+  .button1{
+  width: 30%;
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  padding: 10px 24px;
+  }
+  .button2{
+  width: 30%;
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  padding: 10px 24px;
+  }
+  .button3{
+  width: 30%;
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  padding: 10px 24px;
+  }
+  .github{
+    position: absolute;
+      bottom: 8px;
+      right: 16px;
+  }
+  .github img{
+   width:50px;
+   height:50px;
+   margin-left: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+
+  }
+
+  input[type=text], select, textarea {
+      width: 100%; /* Full width */
+      padding: 12px; /* Some padding */
+      border: 1px solid #ccc; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 6px; /* Add a top margin */
+      margin-bottom: 16px; /* Bottom margin */
+      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+      background-color: #ddd;
+  }
+
+
+footer i {
+    margin: 20px;
+    width: 60px;
+
+  }
+
+
+}
